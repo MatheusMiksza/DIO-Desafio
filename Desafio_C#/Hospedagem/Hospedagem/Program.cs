@@ -13,7 +13,17 @@ namespace Hospedagem
         static void Main(string[] args)
         {
             Console.WriteLine("Olá bem vindo ao Hotel Miksza's\n\n");
-            
+            var numero = Convert.ToDecimal(Console.ReadLine());
+
+            decimal soma = 0m;
+            for (var i = 1m; i <= numero; i++)
+            {
+                //TODO: Crie uma condição para soma dos números de 1 até o número fornecido (exceto aqueles divisíveis por 3).
+                if (i / 3 != 1) { soma = soma + i; }
+
+
+            }
+            Console.WriteLine(soma);
             Program program = new Program();
             program.Menu();
 
