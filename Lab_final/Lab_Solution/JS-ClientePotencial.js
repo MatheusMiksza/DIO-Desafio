@@ -1,0 +1,6 @@
+dio_clientePotencial: {
+
+    Ribbon: {
+
+    }
+}

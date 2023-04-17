@@ -5,6 +5,13 @@ VisualStudioVersion = 16.0.33027.164
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab_Solution", "Lab_Solution\Lab_Solution.csproj", "{6F5CDFD3-B8ED-4794-9737-A8274718869D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebResources", "WebResources", "{1A2B5272-180E-46CF-9D76-08FD1BF91508}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JS", "JS", "{DE6DBC78-9FFB-405C-85CE-8C4523289F55}"
+	ProjectSection(SolutionItems) = preProject
+		JS-ClientePotencial.js = JS-ClientePotencial.js
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,6 +25,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DE6DBC78-9FFB-405C-85CE-8C4523289F55} = {1A2B5272-180E-46CF-9D76-08FD1BF91508}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2B88101B-D08D-4B54-922E-73049E9A8FDB}
