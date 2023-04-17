@@ -20,9 +20,9 @@ namespace Lab_Solution.Plugins.ClienteProtencial
             IPluginExecutionContext context = localPluginContext.PluginExecutionContext;
             IOrganizationService serviceAdmin = localPluginContext.OrganizationServiceAdmin;
 
-            string cep = (string)context.InputParameters[""];
+            string cep = (string)context.InputParameters["Cep"];
             string retorno = string.Empty;
-            string urlViacep = $"https://viacep.com.br/ms/{cep}/json/";
+            string urlViacep = $"https://viacep.com.br/ws/{cep}/json/";
             try
             {
                 using (WebClient client = new WebClient())

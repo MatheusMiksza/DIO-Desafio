@@ -27,3 +27,5 @@ D:\Estudo\DIO\DIO-Desafio\Lab_final\Lab_Solution\Lab_Solution\obj\Debug\Lab_Solu
 D:\Estudo\DIO\DIO-Desafio\Lab_final\Lab_Solution\Lab_Solution\obj\Debug\Lab_Solution.dll
 D:\Estudo\DIO\DIO-Desafio\Lab_final\Lab_Solution\Lab_Solution\obj\Debug\Lab_Solution.pdb
 D:\Estudo\DIO\DIO-Desafio\Lab_final\Lab_Solution\Lab_Solution\obj\Debug\Lab_Solution.csproj.AssemblyReference.cache
+D:\Estudo\DIO\DIO-Desafio\Lab_final\Lab_Solution\Lab_Solution\bin\Debug\Microsoft.Xrm.Sdk.Workflow.dll
+D:\Estudo\DIO\DIO-Desafio\Lab_final\Lab_Solution\Lab_Solution\bin\Debug\Microsoft.Xrm.Sdk.Workflow.xml
