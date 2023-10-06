@@ -65,7 +65,7 @@ namespace Lab_Solution.WorkFlows
                     }
                     else
                     {
-                        PeriodoCurso = "Noturno";
+                        PeriodoCurso = "Noturno"; 
                         trace.Trace("Período Noturno");
                     }
                 }
